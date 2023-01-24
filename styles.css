@@ -61,6 +61,7 @@ body {
 }
 
 
+
 .button {
     color:antiquewhite;
     font-size: 2rem;
@@ -95,12 +96,16 @@ body {
     padding: 0 10px;
     box-sizing: border-box;
 
+
 }
 
 .input {
     height: 50%;
     font-size: 2rem;
     color: rgb(132, 132, 132);
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
 
 }
 
