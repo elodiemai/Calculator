@@ -130,7 +130,7 @@ function multiply(a,b) {
 function divide(a,b) {
     if (b==0) return 'ERROR';
     else return ((a / b).toString().length > 10) ? (a / b).toString().slice(0,12) : (a / b);
-};
+}
 
 function operate(operator, num1, num2) {
     if (operator ==="+") return add(num1,num2);
